@@ -8,6 +8,7 @@ import Featured from './components/Featured'
 import CardsSection from './components/CardsSection'
 import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
+import CallToAction from './components/CallToAction'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Eyes/>
       <Featured/>
       <CardsSection/>
+      {/* <CallToAction/> */}
       <Footer/>
     </div>
     
