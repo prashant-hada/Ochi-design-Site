@@ -11,7 +11,7 @@ function LandingPage() {
                 ["WE CREATE","EYE-OPENING","PRESENTATIONS"].map((item, index)=>{
                     return  <div className="masker">
                                 <div className="w-fit flex items-baseline">
-                                    {index===1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ ease:[0.76, 0, 0.24, 1], duration:1, delay:0.8}} className="bg-[url('./images/content-image01.jpg')] bg-cover rounded-md overflow-hidden w-[9vw] h-[5.3vw]"></motion.div>)}
+                                    {index===1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ ease:[0.76, 0, 0.24, 1], duration:1, delay:0.8}} className="bg-[url('/images/content-image01.jpg')] bg-cover rounded-md overflow-hidden w-[9vw] h-[5.3vw]"></motion.div>)}
                                     <h1 className='uppercase text-[7.5vw] font-bold leading-[6.5vw]'>{item}</h1>
                                 </div>
                             </div>
