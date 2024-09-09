@@ -16,7 +16,7 @@ function FeaturedProjectCard({text="TEMP",cardIndex}) {
             {text.split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[{cardIndex}]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
               <div className="card w-full h-full rounded-xl overflow-hidden">
-                <img className=' w-full h-full bg-cover' src="./images/card-image1.png" alt="card image" />
+                <img className=' w-full h-full bg-cover' src="/images/card-image1.png" alt="card image" />
               </div>
             </motion.div>
     </div>

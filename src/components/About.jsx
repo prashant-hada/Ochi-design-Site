@@ -33,7 +33,7 @@ function About() {
           </button>
         </div>
         <div className='w-1/2 pt-6'>
-          <div className=" about-img w-full h-[30vw] rounded-3xl bg-[url('./images/about-image.png')] bg-contain overflow-hidden"></div>
+          <div className=" about-img w-full h-[30vw] rounded-3xl bg-[url('/images/about-image.png')] bg-contain overflow-hidden"></div>
         </div>
       </div>
     </div>
