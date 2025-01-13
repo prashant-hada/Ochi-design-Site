@@ -17,12 +17,12 @@ function Featured() {
             <h1 className=' text-5xl text-zinc-900'>Featured Projects</h1>
         </div>
         <div className="px-8">
-          <div className="cards w-full flex gap-5 mt-10">
+          <div className="cards w-full flex flex-col md:flex-row gap-5 mt-10">
             <div className="">
               <ul className=' list-disc list-inside'>
-                <li className='text-black text-[1.5vw] font-medium uppercase'>FYDE</li>
+                <li className='text-black text-[3vh] md:text-[1.5vw] font-medium uppercase'>FYDE</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(0)} onHoverEnd={()=>handleHoverEnd(0)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(0)} onHoverEnd={()=>handleHoverEnd(0)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden left-full top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#9194E0] font-bold leading-none tracking-tight uppercase'>
             {"FYDE".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[0]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
@@ -36,7 +36,7 @@ function Featured() {
             <ul className=' list-disc list-inside'>
                 <li className='text-black text-[1.5vw] font-medium uppercase'>Vise</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(1)} onHoverEnd={()=>handleHoverEnd(1)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(1)} onHoverEnd={()=>handleHoverEnd(1)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#9194E0] font-bold leading-none tracking-tight uppercase'>
             {"VISE".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[1]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
