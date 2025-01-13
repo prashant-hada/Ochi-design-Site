@@ -15,7 +15,7 @@ import ClientPage from './components/ClientPage'
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-screen h-screen text-white'>
+    <div className='w-[100dvw] h-[100dvh] overflow-x-clip text-white '>
       <Navbar/>
       <LandingPage/>
       <Marquee/>
