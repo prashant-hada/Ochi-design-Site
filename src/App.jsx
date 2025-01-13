@@ -22,7 +22,7 @@ function App() {
       <About/>
       <Eyes/>
       <Featured/>
-      <ClientPage/>
+      {/* <ClientPage/> */}
       <CardsSection/>
       {/* <CallToAction/> */}
       <Footer/>

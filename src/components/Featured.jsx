@@ -48,12 +48,12 @@ function Featured() {
 
             </div>
           </div>
-          <div className="cards w-full flex gap-5 mt-16">
+          <div className="cards w-full flex flex-col md:flex-row gap-5 mt-16">
             <div className="">
             <ul className=' list-disc list-inside'>
-                <li className='text-black text-[1.5vw] font-medium uppercase'>Trawa</li>
+                <li className='text-black text-[3vh] md:text-[1.5vw] font-medium uppercase'>Trawa</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(2)} onHoverEnd={()=>handleHoverEnd(2)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(2)} onHoverEnd={()=>handleHoverEnd(2)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden left-full top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#c0c2f2] font-bold leading-none tracking-tight uppercase'>
             {"TRAWA".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[2]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
@@ -65,9 +65,9 @@ function Featured() {
             </div>
             <div className="">
             <ul className=' list-disc list-inside'>
-                <li className='text-black text-[1.5vw] font-medium uppercase'>PREMIUM BLEND</li>
+                <li className='text-black text-[3vh] md:text-[1.5vw] font-medium uppercase'>PREMIUM BLEND</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(3)} onHoverEnd={()=>handleHoverEnd(3)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(3)} onHoverEnd={()=>handleHoverEnd(3)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#c0c2f2] font-bold leading-none tracking-tight uppercase'>
             {"PREMIUM BLEND".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[3]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
@@ -78,12 +78,12 @@ function Featured() {
             <FeatureCardTags name={["Branded template"]}/>
             </div>
           </div>
-          <div className="cards w-full flex gap-5 mt-16">
+          <div className="cards w-full flex flex-col md:flex-row gap-5 mt-16">
             <div className="">
             <ul className=' list-disc list-inside'>
-                <li className='text-black text-[1.5vw] font-medium uppercase'>CARDBOARD SPACESHIP</li>
+                <li className='text-black text-[3vh] md:text-[1.5vw] font-medium uppercase'>CARDBOARD SPACESHIP</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(4)} onHoverEnd={()=>handleHoverEnd(4)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(4)} onHoverEnd={()=>handleHoverEnd(4)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden left-full top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#c0c2f2] font-bold leading-none tracking-tight uppercase'>
             {"CARDBOARD SPACESHIP".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[4]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
@@ -95,9 +95,9 @@ function Featured() {
             </div>
             <div className="">
             <ul className=' list-disc list-inside'>
-                <li className='text-black text-[1.5vw] font-medium uppercase'>AH2 & Matt Horn</li>
+                <li className='text-black text-[3vh] md:text-[1.5vw] font-medium uppercase'>AH2 & Matt Horn</li>
               </ul>
-            <motion.div onHoverStart={()=>handleHoverStart(5)} onHoverEnd={()=>handleHoverEnd(5)} className="card-container relative w-full h-[38vw] rounded-3xl">
+            <motion.div onHoverStart={()=>handleHoverStart(5)} onHoverEnd={()=>handleHoverEnd(5)} className="card-container relative w-full h-[60vh] md:h-[38vw] rounded-3xl">
             <h1 className='absolute flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2 z-[9] text-8xl text-[#c0c2f2] font-bold leading-none tracking-tight uppercase'>
             {"AH2 & Matt Horn".split('').map((item,index)=><motion.span initial={{y:"100%"}} animate={cards[5]} transition={{ease:[0.22, 1, 0.36, 1], delay:index*0.025} } className='inline-block'>{item}</motion.span>)}
             </h1>
