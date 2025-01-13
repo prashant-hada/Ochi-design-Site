@@ -9,18 +9,20 @@ import CardsSection from './components/CardsSection'
 import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
 import CallToAction from './components/CallToAction'
+import ClientPage from './components/ClientPage'
 
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full h-screen text-white'>
+    <div className='w-screen h-screen text-white'>
       <Navbar/>
       <LandingPage/>
       <Marquee/>
       <About/>
       <Eyes/>
       <Featured/>
+      <ClientPage/>
       <CardsSection/>
       {/* <CallToAction/> */}
       <Footer/>
