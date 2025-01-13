@@ -12,7 +12,7 @@ function LandingPage() {
                     return  <div className="masker">
                                 <div className="w-fit flex items-baseline">
                                     {index===1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ ease:[0.76, 0, 0.24, 1], duration:1, delay:0.8}} className="bg-[url('/images/content-image01.jpg')] bg-cover rounded-md overflow-hidden  h-[7vw] md:w-[9vw] md:h-[5.3vw]"></motion.div>)}
-                                    <h1 className='uppercase text-[8vh] md:text-[7.5vw] font-bold md:leading-[6.5vw]'>{item}</h1>
+                                    <h1 className='uppercase text-[5.5vh] md:text-[7.5vw] font-bold md:leading-[6.5vw]'>{item}</h1>
                                 </div>
                             </div>
                 })
