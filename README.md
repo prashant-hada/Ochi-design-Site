@@ -16,4 +16,8 @@ Live Link For the Website : https://prashant-hada.github.io/Ochi-design-Site/
     
 3.  **Start the development server**
 
-    `npm run dev` 
+    `npm run dev`
+
+4.  **Start the production build **
+
+    `npm run build` 
