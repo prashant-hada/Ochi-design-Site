@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Modern JavaScript features
+    "module": "esnext", // ESM support
+    "moduleResolution": "node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include browser and ESNext features
+    "strict": true, // Enforce strict type-checking
+    "jsx": "react-jsx", // React JSX transformation
+    "esModuleInterop": true, // Enable interoperability with CommonJS
+    "skipLibCheck": true, // Skip type-checking library files
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true, // Temporarily allow JS files during migration
+    "checkJs": false, // Skip type-checking JS files
+    "resolveJsonModule": true // Allow importing JSON files
+  },
+  "include": ["src/**/*"], // Include all files in the src folder
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and build folder
+}
