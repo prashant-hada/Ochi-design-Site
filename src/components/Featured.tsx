@@ -5,10 +5,10 @@ import FeatureCardTags from './FeatureCardTags'
 function Featured() {
    
   const cards = [useAnimation(), useAnimation(),useAnimation(), useAnimation(),useAnimation(), useAnimation()]
-  const handleHoverStart=(index)=>{
+  const handleHoverStart=(index:number)=>{
     cards[index].start({y:"0"})
   }
-  const handleHoverEnd=(index)=>{
+  const handleHoverEnd=(index:number)=>{
     cards[index].start({y:"100%"})
   }
   return (

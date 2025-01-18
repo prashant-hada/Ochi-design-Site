@@ -1,6 +1,13 @@
 import React from 'react'
 
-function FooterLink({content, type="line", link="#", styleClass=""}) {
+interface FooterLinkProps {
+  content:string;
+  type?:string;
+  link?: string;
+  styleClass?: string
+}
+
+function FooterLink({content, type="line", link="#", styleClass=""}:FooterLinkProps) {
   let leadingValue = type==="link"? "leading-[0.001vw]" : "";
   return (
     <div className={`${styleClass}`}>
